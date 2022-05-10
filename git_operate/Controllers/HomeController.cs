@@ -26,13 +26,20 @@ namespace git_operate.Controllers
 
         public string Demo()
         {
-            return "想知道git怎么用嘛";
+            return "想知道git";
         }
 
         public void Branch() 
         {
             string branch = "合并分支，添加Tag";
-            branch = Demo() + "123";
+            branch = Demo() + "123"+"234";
+        }
+
+        public enum GitClass 
+        {
+          code=1,
+          price=2,
+          retail=3
         }
 
         public IActionResult Privacy()
