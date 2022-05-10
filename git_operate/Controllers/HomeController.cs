@@ -31,7 +31,7 @@ namespace git_operate.Controllers
 
         public void Branch() 
         {
-            string branch = "合并分支，添加Tag";
+            string branch = "合并删除分支，添加Tag";
             branch = Demo() + "123"+"234";
         }
 
