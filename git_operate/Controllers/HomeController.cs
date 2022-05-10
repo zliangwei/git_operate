@@ -29,6 +29,11 @@ namespace git_operate.Controllers
             return "想知道git怎么用嘛";
         }
 
+        public void Branch() 
+        {
+            string branch = "合并分支，添加Tag";
+        }
+
         public IActionResult Privacy()
         {
             return View();
