@@ -11,5 +11,12 @@ namespace git_operate.Controllers
     [ApiController]
     public class DemoController : ControllerBase
     {
+        public class Progrem 
+        {
+
+            public int Id { get; set; }
+            public string Name { get; set; }
+
+        }
     }
 }
