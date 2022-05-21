@@ -37,9 +37,11 @@ namespace git_operate.Controllers
 
         public enum GitClass 
         {
-          code=1,
+          code=100,
           price=2,
-          retail=3
+          retail=3,
+          atc=4,
+          type=5
         }
 
         public IActionResult Privacy()
