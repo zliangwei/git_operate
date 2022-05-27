@@ -21,6 +21,12 @@ namespace git_operate.Controllers
             
             }
 
+            [HttpGet]
+            public string Warriors() 
+            {
+                return "2022-05-27 西决最后一场";
+            }
+
             public int Id { get; set; }
 
             public DateTime Name { get; }
