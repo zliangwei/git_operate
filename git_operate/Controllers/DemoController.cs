@@ -11,18 +11,18 @@ namespace git_operate.Controllers
     [ApiController]
     public class DemoController : ControllerBase
     {
-        public class Progrem 
+        public class Progrem
         {
             [HttpGet]
-            public string TestGet() 
+            public string TestGet()
             {
 
                 return "2022勇士总冠军。";
-            
+
             }
 
             [HttpGet]
-            public string Warriors() 
+            public string Warriors()
             {
                 return "2022-05-27 西决最后一场";
             }
@@ -30,6 +30,19 @@ namespace git_operate.Controllers
             public int Id { get; set; }
 
             public DateTime Name { get; }
+
+            public class Person
+            {
+            
+            }
+
+            public class Student : Person
+            {
+            
+            }
+
+            //里氏替换
+            Person person = new Student();
 
         }
     }
