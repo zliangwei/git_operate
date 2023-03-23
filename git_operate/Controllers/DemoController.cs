@@ -7,19 +7,12 @@ using System.Threading.Tasks;
 
 namespace git_operate.Controllers
 {
-    [Route("[controller]/[action]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class DemoController : ControllerBase
     {
         public class Progrem
         {
-            [HttpGet]
-            public string TestGet()
-            {
-
-                return "2022勇士总冠军。";
-
-            }
 
             [HttpGet]
             public string Warriors()
