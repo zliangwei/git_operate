@@ -27,6 +27,10 @@ namespace git_operate.Controllers
                 return "2022-05-27 西决最后一场";
             }
 
+            /*
+             暂存修改
+             */
+
             public int Id { get; set; }
 
             public DateTime Name { get; }
